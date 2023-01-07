@@ -8,7 +8,6 @@ import Client from './Components/Client/Client';
 import Case from './Components/Case/Case';
 import Tasks from './Components/Tasks/Tasks';
 import Sidebar from './Components/Sidebar/Sidebar';
-import Dashb from './Pages/Dashb/Dashb';
 import Menu from './Components/Menu/Menu';
 
 function App() {
@@ -27,7 +26,6 @@ function App() {
          <Route path="/Tasks" element={<Tasks/>}/>
          <Route path="/Appointments" element={<Appointments/>}/>
          <Route path="/Case" element={<Case/>}/>
-         
         </Routes>
         </Sidebar>
       </BrowserRouter>
