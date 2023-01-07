@@ -18,7 +18,6 @@ function App() {
       <BrowserRouter>
       <Menu/>
       <Sidebar>
-    
         <Routes>
          <Route path="/" element={<Workplace/>}/>
          <Route path="/Workplace" element={<Workplace/>}/>
