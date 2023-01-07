@@ -13,19 +13,19 @@ import Menu from './Components/Menu/Menu';
 function App() {
   return (
     <div className="App"> 
-     
+  
       <BrowserRouter>
       <Menu/>
       <Sidebar>
         <Routes>
-         <Route path="/" element={<Workplace/>}/>
-         <Route path="/Workplace" element={<Workplace/>}/>
-         {/* <Route path="/" element={<Login/>}/> */}
-         <Route path="/Workplace" element={<Workplace/>}/>
-         <Route path="/Client" element={<Client/>}/>
-         <Route path="/Tasks" element={<Tasks/>}/>
-         <Route path="/Appointments" element={<Appointments/>}/>
-         <Route path="/Case" element={<Case/>}/>
+        {/* <Route path="/" element={<Login/>}/> */}
+          <Route path="/" element={<Workplace/>}/>
+          <Route path="/Workplace" element={<Workplace/>}/>
+          <Route path="/Workplace" element={<Workplace/>}/>
+          <Route path="/Client" element={<Client/>}/>
+          <Route path="/Tasks" element={<Tasks/>}/>
+          <Route path="/Appointments" element={<Appointments/>}/>
+          <Route path="/Case" element={<Case/>}/>
         </Routes>
         </Sidebar>
       </BrowserRouter>

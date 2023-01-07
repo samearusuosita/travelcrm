@@ -5,12 +5,6 @@ import "./Client.scss";
 
 const Client = () => {
 
-  // const tableitems = [{name: "Adegoke oluwadailare"}, 
-  // {Email: "adegoketemitope1909@gmail.com"},
-  // {Phone: "Phone"},
-  // {Resident: "No 2, Olonade Close, Monata, Ibadan Oyo State, Nigeria"},
-  // {Status: ""}]
-
   return (
     <div className='app__client  bgmain'>
       <div className="app__client-content padding">

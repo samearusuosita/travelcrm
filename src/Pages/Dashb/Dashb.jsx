@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 const Dashb = () => {
   return (
-    <div className='bgmain'>
-      dashboard pages
+    <div className='app__dashb bgmain'>
+      
     </div>
   )
 }

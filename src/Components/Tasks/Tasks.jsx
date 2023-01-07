@@ -3,15 +3,15 @@ import Search from '../Search/Search';
 import Title from '../Title/Title';
 import "./Tasks.scss";
 import {HiOutlineDotsVertical} from "react-icons/hi";
-import {FaResearchgate} from "react-icons/fa";
-import UpdateTask from "../UpdateTask/UpdateTask";
+
+// import UpdateTask from "../UpdateTask/UpdateTask";
 
 const Tasks = () => {
 
   const tablist = ["All Status", "Not Started", "Started", "Completed", "Cancelled", "Declined"]
   
   // to open the updaate form
-  const [modalOpened, setModalOpened] = useState(false);
+  // const [modalOpened, setModalOpened] = useState(false);
 
 
   return (
@@ -19,17 +19,6 @@ const Tasks = () => {
       <div>
         <Title Heading="Tasks" SubHeading="Here's the tasks list"/>
         <Search searchText="Search"/>
-
-            <div className='modaleOpen'>
-                <FaResearchgate  
-                width='2rem' 
-                height='1.2rem' 
-                onClick={() => setModalOpened(true)}/>
-                <UpdateTask 
-                modelOpened={modalOpened} 
-                setModelOpened={setModalOpened}/>
-            </div>
-
       </div>
       <div className="table-task">
         <div className="app__tasks-tabs">
