@@ -1,0 +1,28 @@
+.App {
+  min-width: 100%;
+
+
+.app__tasks-tabs{
+  width: 100%;
+  border-bottom: 1px solid var(--graySh);
+  margin-bottom: 0.75rem;
+  
+  ul{
+      display: flex;
+      
+      :nth-child(1) {
+          background: var(--primary);
+          color:white;
+          border-radius: 5px 0 0 0;
+      }
+
+      li{
+          padding: 10px;
+          list-style: none;
+          font-weight: 600;
+          color: var(--graySh);   
+      }
+  }
+}
+}
+

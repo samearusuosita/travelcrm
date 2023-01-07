@@ -1,0 +1,23 @@
+.app__client{
+  overflow-y: auto;
+
+  .table{
+      padding: 0 2.5rem 0 2.5rem;
+        
+        tr:nth-child(2) {
+          background-color: white;
+
+      }
+        tr:nth-child(3) {
+          background-color: var(--pfade);
+          border-left: 3px solid var(--primary);
+        }
+
+  }
+    
+
+}
+
+.padding{
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,39 @@
+.app__appointment{
+    padding: 2.5rem;
+    overflow-y: auto;
+
+
+    
+    tr:nth-child(2) td:nth-child(4){
+        background-color: var(--pfade);
+        color: var(--primary);
+        text-align: center;
+        border: 2px solid white;
+    }
+    
+    tr:nth-child(3) td:nth-child(4){
+        background-color: #f694dc3b;
+        color: #b81d8f;
+        text-align: center;
+        border: 2px solid white;
+    }
+
+    tr:nth-child(4) td:nth-child(4){
+        background-color: #d6fcd67a;
+        color: green;
+        text-align: center;
+        border: 2px solid white;
+    }
+    tr:nth-child(5) td:nth-child(4){
+        background-color: #d6fcd67a;
+        color: green;
+        text-align: center;
+        border: 2px solid white;
+    }
+    tr:nth-child(6) td:nth-child(4){
+        background-color: #d6fcd67a;
+        color: green;
+        text-align: center;
+        border: 2px solid white;
+    }
+}

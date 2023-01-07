@@ -1,0 +1,70 @@
+.app__case{
+    padding: 2.5rem;
+     overflow-y: auto;
+
+    .app__case-heading{
+        margin-bottom: 2rem;
+        
+    }
+
+    .table-task{
+       
+
+        .app__case-p{
+            font-weight: 600;
+            font-size: 16px;
+        }
+        
+        .twocolums-form{
+            padding-top: 2rem;
+
+            .btnsubmit{
+                right: 0;
+                float: right;
+            }
+            
+        }
+
+        .col-50{
+
+            .clients-lists{
+                width: 100%;
+                height: 100px;
+                // background: black;
+                border: 1px solid #ccc;
+                margin-bottom: 1.5rem;
+
+
+                ul{
+                    list-style: none;
+
+                    li{
+                        font-size: 14px;
+                        width: 100%;
+                        padding-left: 10px;
+                        color: black;
+                        
+                        span{
+                            color: red;
+                            right: 0;
+                            float: right;
+                            padding-right: 20px;
+                        }
+                    }
+                    
+
+                    li:nth-child(1) {
+                        padding-top: 7px;
+                        border-right: 2px solid var(--primary);
+                        font-weight: 500;
+                      }
+
+                      
+                      
+                }
+            }
+            
+        }
+    }   
+}
+

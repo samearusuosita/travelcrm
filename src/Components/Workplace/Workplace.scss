@@ -1,0 +1,111 @@
+.app__workplace{
+    overflow-y: auto;
+    
+    .app__workplace-content{
+        padding: 2.5rem;
+
+
+        p{
+            color: rgba(155, 155, 155, 0.825);
+            padding-top: 0.75rem;
+        }
+
+
+        .app__workplace-overview{
+
+
+            .app__workplace-sub{
+                color: black;
+                font-size: 16px;
+                font-weight: 600;
+                padding-top: 1.5rem;
+            }
+
+            .app__wordplace-overview-cont{
+                width: 100%;
+                background: white;
+                height: 160px;
+                box-shadow: 0 2px 7px rgba(0, 104, 40, 0.2);
+                margin-top: 1rem;
+
+                .app__wp-ag{
+                    width: 100%;
+                    background: var(--pfade);
+                    height: 2.5rem;
+                    padding: 5px 30px;
+                    font-weight: 600;
+                    border-top: 5px solid var(--primary);  
+                    // color: var(--primary);
+                }
+
+                .viewtask{
+                    padding-left: 40rem;
+                    font-weight: 400;
+                    color: var(--primary);
+                    padding-right: 10px;
+
+                    
+                }
+
+                .arrow{
+                    color: var(--primary);
+                }
+
+
+                .app__workplace-sch{
+                    padding: 40px 100px;
+                    color: gray;
+
+                    span{
+                        color: var(--primary);
+                        font-weight: 600;
+                        padding-left: 5px;
+                    }
+                }
+
+                .app__workplace-fl-text{
+                    // padding: 10px 30px;
+                    color: black;
+                    font-size: 13px;
+                    font-weight: 600;
+                    padding-left: 20px;
+
+                    .task_name{
+                        color: var(--primary);
+                    }
+                }
+
+                .app__workplace-fl-text2{
+                    color: black;
+                    font-size: 13px;
+                   padding-top: 5px;
+                    padding-left: 20px;
+
+                    span{
+                        padding-left: 200px;
+                    }
+                }
+
+                .app__workplace-duetask{
+                    background: var(--pfade);
+                    margin: 15px 0 10px 30px;
+                    width: 93%;
+                    height: 70px;
+                }
+
+            
+            }
+        }
+
+        .padding-top{
+            padding-top: 2.5rem;
+        }
+    }
+
+}
+
+// .hshsh{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }

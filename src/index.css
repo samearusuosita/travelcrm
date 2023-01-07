@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+:root {
+  --font-base: 'Inter', sans-serif;
+  --primary: #DDAA33;
+  --secondary: #AB201F;
+  --white: #ffffff;
+  --mainbg: #f5f3f388;
+  --pfade: #fef6e2;
+  --graySh: #bcbcbc;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  overflow: auto;
+}
+
+.bgmain{
+  background: var(--mainbg);
+  width: 85vw;
+  height: 100vh;
+}
+
+
+/* heading and tiltle */
+.sub-text{
+  color: rgba(155, 155, 155, 0.825);
+  padding-top: 0.75rem;
+}
+
+
+.padding{
+  padding: 2.5rem;
+}
+
+
+
+
+/* tables */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: none;
+  text-align: left;
+  padding: 15px;
+  
+}
+
+th{
+  background: var(--pfade);
+  border-bottom: 2px solid var(--primary);
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+td{
+  font-size: 14px;
+  color: gray;
+}
+
+
+.table-task{
+  background: white;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+button{
+  background-color: var(--primary);
+  color: white;
+  padding: 14px 65px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/* caseform */
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  flex: 25%;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-75 {
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input:focus{
+  outline: 1px solid var(--primary);
+  border: none;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea:focus{
+  outline: 1px solid var(--primary);
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.side-icons{
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px;
+  position: relative;
+  box-sizing: border-box;
+  top:9.5%;
+  left:29rem;
+  transform: translateY(-50%);
+}
+
+
+
